@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://gitlab.com/shattsur1987-group/Tax_order_forecasting.git
+	tagOpt = --no-tags
+	fetch = +refs/*:refs/*
+	mirror = true
+[remote "github"]
+	url = https://github.com/Shattsur/Tax_order_forecasting.git
+	fetch = +refs/heads/*:refs/remotes/github/*
